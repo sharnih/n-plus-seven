@@ -20,15 +20,7 @@
     <!-- script -->
     <script>
       let nouns;
-      const sourceText = `My object in writing this little book is to show you how you may prepare
-and cook your daily food, so as to obtain from it the greatest amount of
-nourishment at the least possible expense; and thus, by skill and
-economy, add, at the same time, to your comfort and to your
-comparatively slender means. The Recipes which it contains will afford
-sufficient variety, from the simple every-day fare to more tasty dishes
-for the birthday, Christmas-day, or other festive occasions.
-
-In order to carry out my instructions properly, a few utensils will be
+      const sourceText = `In order to carry out my instructions properly, a few utensils will be
 necessary. Industry, good health, and constant employment, have, in many
 instances, I trust, enabled those whom I now address to lay by a little
 sum of money. A portion of this will be well spent in the purchase of
@@ -40,12 +32,8 @@ grate. By this means you would have hot water always ready at hand, the
 advantage of which is considerable. Such poor men's cooking-stoves
 exist, on a large scale, in all modern-built lodging-houses. Also, a
 three-gallon iron pot with a lid to it, a one-gallon saucepan, a
-two-quart ditto, a frying-pan, a gridiron, and a strong tin baking-dish.
-
-Here is a list of the cost prices at which the above-named articles, as
-well as a few others equally necessary, may be obtained of all
-ironmongers:--`;
-      const wordOffset = 7;
+two-quart ditto, a frying-pan, a gridiron, and a strong tin baking-dish.`;
+      const wordOffset = 50;
       function generateNewText(text) {
         let splitText = text.split(" ");
         let newText = "";
